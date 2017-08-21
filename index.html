@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>David's website</title>
+  <title id="index-title"></title>
   <!-- meta -->
   <meta charset="utf-8" />
   <meta name="description" content="Personal Site">
@@ -9,18 +9,49 @@
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- scripts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <!--jQuery Library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
   <!-- styles -->
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
-<body>
-  <div id="page-wrapper">
-    <h1>David's Personal Page!</h1>
-    <img src="assets/imgs/rubiks.png">
+
+
+<body id="fade-in" class="container">
+  <header>
+    <nav id="nav-top">
+      <ul>
+        <li class="top-nav-list nav-home col-sm-4"></li>
+        <li class="top-nav-list nav-contact col-sm-4"></li>
+        <li class="top-nav-list nav-work col-sm-4"></li>
+      </ul>
+    </nav>
+  </header>
+  <img class="back-img" src="">
+  <div class="work_title"></div>
+  <div id="project-section" class="project-work row">
+
   </div>
+  <footer id="footer">
+    <nav>
+      <ul class="row ul-footer">
+        <li class="col-sm-6"><a href="www.github.com/congocash"><img id="github" class="footer-icons" src=""></a></li>
+        <li class="col-sm-6"><a href="www.linkedin.com/davjue"><img id="linkedin" class="footer-icons" src=""></a></li>
+      </ul>
+    </nav>
+  </footer>
+
+
 </body>
 </html>
